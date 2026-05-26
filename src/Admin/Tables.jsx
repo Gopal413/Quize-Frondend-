@@ -20,7 +20,7 @@ import ModeEditTwoToneIcon from "@mui/icons-material/ModeEditTwoTone";
 import { LinkButton } from "../Components/Styled/PrimaryButton";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
-function Tables({ Datas }) {
+function Tables({ Datas,HandleUpdate,handleDelete }) {
   const data = Datas;
   const [namemenu, setNameMenu] = useState(null);
   const [emailmenu, setEmailMenu] = useState(null);
@@ -98,7 +98,7 @@ function Tables({ Datas }) {
                 backgroundColor: "#000",
                 color: "#fff",
                 fontWeight: "bold",
-                textAlign: "center",
+                //textAlign: "center",
                 fontSize: { xs: "10px", sm: "12px", md: "16px" },
                 width: {xs:"10%",sm:'10%',md:'10%'},
               }}
@@ -111,7 +111,7 @@ function Tables({ Datas }) {
                 color: "#fff",
                 fontWeight: "bold",
                 fontSize: { xs: "10px", sm: "12px", md: "16px" },
-                textAlign: "center",
+               // textAlign: "center",
                 width: {xs:"25%",sm:'25%',md:'25%'},
               }}
             >
@@ -146,7 +146,7 @@ function Tables({ Datas }) {
                 color: "#fff",
                 fontWeight: "bold",
                 fontSize: { xs: "10px", sm: "12px", md: "16px" },
-                textAlign: "center",
+                //textAlign: "center",
                  width: {xs:"25%",sm:'25%',md:'25%'},
               }}
             >
@@ -187,7 +187,7 @@ function Tables({ Datas }) {
                 color: "#fff",
                 fontWeight: "bold",
                 fontSize: { xs: "10px", sm: "12px", md: "16px" },
-                textAlign: "center",
+                //textAlign: "center",
                  width: {xs:"20%",sm:'20%',md:'20%'},
               }}
             >
@@ -221,7 +221,7 @@ function Tables({ Datas }) {
                
                 fontWeight: "bold",
                 fontSize: { xs: "10px", sm: "12px", md: "16px" },
-                textAlign: "center",
+                //textAlign: "center",
                // width: {xs:"20%",sm:'20%',md:'20%'},
               }}
             >

@@ -99,7 +99,7 @@ function AdminTrainer() {
 
         <Typography variant="h2" sx={{m:2,textAlign:"center"}}>Trainer</Typography>
         <LinkButton onClick={()=>navigate("/admin/trainerform")}>Add Trainer</LinkButton>
-       <Tables Datas = {trainerData}/>
+       <Tables Datas = {trainerData} HandleUpdate={HandleUpdate} handleDelete={handleDelete} />
     </Box>
   );
 }
